@@ -19,6 +19,6 @@ async function tryRecover(mnemonic, passphrase, outfile = './cli-keypair.json') 
   console.log('🎯 Public Key:', kp.publicKey.toBase58());
 }
 
-const MNEMONIC  ='enter your mneumoniic phrase here';
+const MNEMONIC  ='enter your mneumoniic phrase her';
 tryRecover(MNEMONIC);
 
